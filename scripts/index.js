@@ -1,7 +1,7 @@
 
 // GESTIONE PASSWORD
 
-const password = "Rampina07";
+const password = "Password";
 const cardsContainer = document.getElementById("cards-container");
 const shuffleButton = document.getElementById("shuffle-btn");
 const loginButton = document.getElementById("loginButton");
