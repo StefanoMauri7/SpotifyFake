@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Sfondo generale */
+body {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    color: #1DB954;
+    font-size: 2.5rem;
+}
+
+header p {
+    color: #b3b3b3;
+    margin-top: 10px;
+}
+
+/* Container principale */
+.admin-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+/* FORM INSERIMENTO CANZONE */
+.song-form-section {
+    display: flex;
+    justify-content: center;
+}
+
+.song-form {
+    background-color: #181818;
+    padding: 30px 40px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+.song-form h2 {
+    text-align: center;
+    color: #1DB954;
+    margin-bottom: 15px;
+}
+
+/* INPUT */
+.song-form input {
+    background-color: #121212;
+    border: 1px solid #333;
+    border-radius: 20px;
+    padding: 10px 15px;
+    color: #ffffff;
+    font-size: 0.95rem;
+    outline: none;
+}
+
+.song-form input::placeholder {
+    color: #777;
+}
+
+/* BOTTONE AGGIUNGI */
+.song-form button {
+    background-color: #1DB954;
+    border: none;
+    border-radius: 20px;
+    padding: 12px;
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.song-form button:hover {
+    background-color: #1ed760;
+    transform: translateY(-2px);
+}
+
+/* LISTA CANZONI */
+.song-list-section {
+    background-color: #181818;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+.song-list-section h2 {
+    color: #1DB954;
+    margin-bottom: 15px;
+}
+
+.song-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.song-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #121212;
+    padding: 10px 15px;
+    border-radius: 12px;
+}
+
+.song-list li span {
+    color: #ffffff;
+}
+
+.delete-btn {
+    background-color: #ff4b4b;
+    border: none;
+    border-radius: 20px;
+    padding: 6px 12px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 0.85rem;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.delete-btn:hover {
+    background-color: #ff6b6b;
+    transform: translateY(-2px);
+}
+
+/* Contenitore bottone indietro */
+.back-btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Bottone indietro */
+.back-btn {
+    background-color: #1DB954;
+    border: none;
+    border-radius: 20px;
+    padding: 12px 25px;
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.back-btn:hover {
+    background-color: #1ed760;
+    transform: translateY(-2px);
+}

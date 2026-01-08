@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin - Gestione Canzoni</title>
+    
+</head>
+<body>
+
+    <header>
+        <h1>Gestione Canzoni</h1>
+        <p>Aggiungi nuove canzoni o rimuovi quelle esistenti</p>
+        <link rel="stylesheet" href="../styles/admin.css">
+    </header>
+
+    <main class="admin-container">
+
+        <!-- FORM INSERIMENTO -->
+        <section class="song-form-section">
+            <form class="song-form" name="song-form" id="song-form" >
+                <h2>Aggiungi Canzone</h2>
+
+                <input type="text" placeholder="Titolo" id="Titolo" required>
+                <input type="text" placeholder="Artista" id="Artista" required>
+                <input type="text" placeholder="Genere" id="Genere" required>
+                <input type="url" placeholder="Link Spotify" id="Link" required>
+
+                <button type="submit">Aggiungi</button>
+            </form>
+        </section>
+
+        <!-- LISTA CANZONI -->
+        <section class="song-list-section">
+            <h2>Canzoni Caricate</h2>
+            <ul class="song-list" id="song-list">
+                <!-- <li>
+                    <span>Blinding Lights - The Weeknd</span>
+                    <button class="delete-btn">Elimina</button>
+                </li>
+                <li>
+                    <span>Levitating - Dua Lipa</span>
+                    <button class="delete-btn">Elimina</button>
+                </li>
+                <li>
+                    <span>Bohemian Rhapsody - Queen</span>
+                    <button class="delete-btn">Elimina</button>
+                </li>
+                <li>
+                    <span>Lose Yourself - Eminem</span>
+                    <button class="delete-btn">Elimina</button>
+                </li> -->
+            </ul>
+        </section>
+
+        <!-- BOTTONE TORNA INDIETRO -->
+        <div class="back-btn-container">
+            <button class="back-btn" id="back-btn">← Torna Indietro</button>
+        </div>
+
+
+    </main>
+    <script src="../scripts/admin.js"></script>
+</body>
+</html>
